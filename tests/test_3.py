@@ -45,6 +45,7 @@ def test_amount_albums():
     assert response.status_code == HTTPStatus.OK
     assert len(response.json()) == 100
 
+
 # test_6 - Test verifies that 100 posts are found
 def test_amount_posts():
     target_url = f"{url_main}/posts"
