@@ -49,5 +49,5 @@ def test_amount_albums():
 def test_amount_posts():
     target_url = f"{url_main}/posts"
     response = requests.get(target_url)
-    assert response.status_code == requests.codes.ok
+    assert response.status_code == HTTPStatus.OK
     assert len(response.json()) == 100
