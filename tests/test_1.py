@@ -18,7 +18,7 @@ def specified_sub_breed_dog(url_test, breed):
     return target_url
 
 
-# test_1 - Test verifies that status code is successful
+# test_1 - Test verifies that status code is succeeded
 def test_status_code():
     assert r_1_2_3.status_code == 200
 

@@ -1,3 +1,4 @@
+# parameters from console
 def pytest_addoption(parser):
     parser.addoption(
         "--url",
